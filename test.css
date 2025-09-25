@@ -1,0 +1,64 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.box {
+    width: 50px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.triangle-wrapper {
+    width: 0;
+    height: 0;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+    border-bottom: 76px solid black;
+
+}
+
+.triangle {
+    position: relative;
+    top: 6px;
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid #add8e6;
+
+}

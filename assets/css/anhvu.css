@@ -1,0 +1,78 @@
+.dautrang {
+    background-color: black;
+    height: 46px;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+}
+
+.dautrang_item {
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.dautrang_item:hover {
+    background-color: #ccc;
+}
+
+#more:hover .menubenduoi {
+    display: block;
+}
+
+.phanbentrai {
+    display: flex;
+}
+
+.phanbenphai {
+    color: white;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.phanbenphai:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+.dautrang {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timkiem_icon {
+    width: 15px;
+
+}
+
+.menubenduoi {
+    width: 128px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    color: black;
+    display: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menubenduoi_item {
+    padding: 8px 16px;
+    text-transform: none;
+}
+
+.menubenduoi_item:hover {
+    background-color: #ccc;
+}
+
+.flex {
+    display: flex;
+}

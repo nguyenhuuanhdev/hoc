@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baitap.css">
+</head>
+
+<body>
+    <h1>Biểu mẫu khảo sát IT việc</h1>
+
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">Họ tên</label>
+            <input type="text" id="name" placeholder="Nhập tên của bạn">
+
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Nhập email của bạn">
+
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Tuổi</label>
+            <input type="text" id="age" placeholder="Nhập tuổi">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">Hiện tại bạn đang là?</label>
+            <select name="role" id="role">
+                <option value="student">Học sinh/Sinh viên</option>
+                <option value="intern">Thực tập</option>
+                <option value="professional">Nhân viên</option>
+                <option value="other">Khác</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Bạn sẽ giới thiệu với bạn bè chứ</label>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed" value="yes"> Có </input>
+
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed" value="no"> Không </input>
+
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed" value="maybe"> Có thể </input>
+
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Ngôn ngữ lập trình và Framework bạn đã biết?
+                <small>(Có thể nhiều đáp án)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp" value="c">C</input>
+
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp" value="c++">C++</input>
+
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp" value="c">C#</input>
+
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">Bạn có câu hỏi gì cho chúng tôi không?</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+
+        </div>
+
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+
+</html>
