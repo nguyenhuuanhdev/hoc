@@ -1,1 +1,48 @@
-Bài tập 8 - Fri, Sep 26, 2025 10:31:12 AM
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baitap7.css">
+</head>
+
+<body>
+    <form>
+        <h2>Đăng ký tài khoản</h2>
+
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required>
+
+
+        <label for="email">Nhập email của bạn:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label>Giới tính:</label>
+        <div class="gender">
+            <label><input type="radio" name="gender" value="nam">Nam</label>
+            <label><input type="radio" name="gender" value="nu">Nữ</label>
+            <label><input type="radio" name="gender" value="khac">Khác</label>
+
+        </div>
+
+        <label>Sở thích:</label>
+        <div class="hobbies">
+            <label><input type="checkbox" name="hobby" value="code">Lập trình game</label>
+            <label><input type="checkbox" name="hobby" value="game">Chơi game giải trí</label>
+            <label><input type="checkbox" name="hobby" value="boi">Bơi lội</label>
+            <label><input type="checkbox" name="hobby" value="hack">Hack like instagram</label>
+
+
+
+        </div>
+
+        <button type="submit">Đăng ký</button>
+    </form>
+</body>
+
+</html>
